@@ -26,7 +26,10 @@ body, html, *{
 
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 10px;
+    width: 300px;
 }
 
 .Blog{
@@ -34,7 +37,6 @@ body, html, *{
     height: auto;
     margin: 100px;
     border-radius: 10px;
-    display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 10px black;
     justify-content: center;
@@ -56,3 +58,26 @@ body, html, *{
     cursor: pointer;
 }
 
+.Post {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(144, 138, 240);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.Post h2{
+    font-size: 40px;
+}
+
+.Post p{
+    font-size: 20px;
+}
