@@ -39,7 +39,7 @@ body, html, *{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Kreon, serif;
+    font-family: "Kreon", serif;
     font-weight: bold;
     color: rgb(4, 249, 233);
     text-align: center;
@@ -66,7 +66,7 @@ body, html, *{
     align-items: center;
     font-size: 25px;
     font-weight: bold;
-    font-family: Kreon, serif;
+    font-family: "Kreon", serif;
     color: rgb(104, 93, 255);
     text-align: center;
     transition: all 0.3s ease-in-out; 
@@ -93,7 +93,6 @@ body, html, *{
     align-items: center;
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(144, 138, 240);
     text-align: center;
     transition: all 0.3s ease-in-out;
@@ -102,26 +101,21 @@ body, html, *{
 .Post h2{
     font-size: 35px;
     color: rgb(4, 131, 249);
-    font-family: Kreon, serif;
+    font-family: "Kreon", serif;
 }
 
-.Post p{
-    font-size: 20px;
-    margin: 10px;
-    font-family: 'Neuton', serif;
-}
 
 .Post img{
     width: 150px;
     height: auto;
 }
 
-.Post ul, ol{
+.Post ul, ol, p{
     font-size: 20px;
-    margin: 0;
+    margin: 10px;
     list-style-position: inside;
     padding-left: 0;
-    font-family: Neuton, serif;
+    font-family: "Neuton", serif;
 }
 
 
